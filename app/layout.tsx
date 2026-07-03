@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "올티칭 영어교습소",
     images: [
       {
-        url: "/images/link_thum2.jpg",
+        url: "/images/link_thum2.png",
         width: 800,
         height: 601,
         alt: "올티칭 영어교습소",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: "올티칭 영어교습소 | 광주 광산구 신창동 초·중등 영어학원",
     description:
       "16년 경력 원장 직강, 소수정예 수업. 파닉스부터 중등 내신까지.",
-    images: ["/images/link_thum2.jpg"],
+    images: ["/images/link_thum2.png"],
   },
 };
 
