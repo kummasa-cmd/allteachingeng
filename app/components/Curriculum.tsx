@@ -4,7 +4,7 @@ const classes = [
   {
     name: "파닉스반",
     time: "14:00~",
-    grade: "유아·초1",
+    grade: "초1·2학년",
     color: "from-pink-50 to-rose-50",
     badge: "bg-rose-100 text-rose-700",
     icon: "🔤",
@@ -20,7 +20,7 @@ const classes = [
   {
     name: "초등 저학년반",
     time: "15:00~",
-    grade: "초2~3",
+    grade: "초3·4학년",
     color: "from-orange-50 to-amber-50",
     badge: "bg-amber-100 text-amber-700",
     icon: "📖",
@@ -35,7 +35,7 @@ const classes = [
   {
     name: "초등 고학년반",
     time: "16:00~",
-    grade: "초4~6",
+    grade: "초5·6학년",
     color: "from-green-50 to-emerald-50",
     badge: "bg-emerald-100 text-emerald-700",
     icon: "📚",
