@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://allteachingeng.vercel.app"),
   title: "올티칭 영어교습소 | 광주 광산구 신창동 초·중등 영어학원",
   description:
     "광주 광산구 신창동 올티칭 영어교습소. 16년 경력 원장 직강, 소수정예 수업으로 파닉스부터 중등 내신까지 체계적으로 지도합니다.",
@@ -13,14 +14,23 @@ export const metadata: Metadata = {
       "16년 경력 원장 직강, 소수정예 수업. 파닉스부터 중등 내신까지.",
     type: "website",
     locale: "ko_KR",
+    url: "https://allteachingeng.vercel.app",
+    siteName: "올티칭 영어교습소",
     images: [
       {
-        url: "/images/og-image.jpg",
-        width: 1200,
-        height: 630,
+        url: "/images/hero-illustration.jpg",
+        width: 800,
+        height: 800,
         alt: "올티칭 영어교습소",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "올티칭 영어교습소 | 광주 광산구 신창동 초·중등 영어학원",
+    description:
+      "16년 경력 원장 직강, 소수정예 수업. 파닉스부터 중등 내신까지.",
+    images: ["/images/hero-illustration.jpg"],
   },
 };
 
